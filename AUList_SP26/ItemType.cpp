@@ -20,7 +20,7 @@ relationType ItemType::ComparedTo(ItemType item) const
 		return relationType::EqualTo;
 }
 
-void ItemType::Print() const
+void ItemType::Print(std::ostream& stream) const
 {
-	std::cout << value;
+	stream << value;
 }

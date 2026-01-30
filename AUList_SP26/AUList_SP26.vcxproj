@@ -128,7 +128,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AUList.cpp" />
+    <ClCompile Include="AUListDr.cpp" />
     <ClCompile Include="ItemType.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AUListIn.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

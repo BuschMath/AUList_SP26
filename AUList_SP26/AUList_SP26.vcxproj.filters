@@ -29,5 +29,11 @@
     <ClCompile Include="AUList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AUListDr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AUListIn.dat" />
   </ItemGroup>
 </Project>

@@ -18,7 +18,7 @@ public:
 	void EmptyList();
 	ItemType GetNextItem();
 	void ResetList();
-	void PrintList();
+	void PrintList(std::ostream& stream);
 
 private:
 	ItemType items[MAX_ITEMS];

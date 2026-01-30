@@ -83,12 +83,12 @@ void AUList::ResetList()
 	currentPos = -1;
 }
 
-void AUList::PrintList()
+void AUList::PrintList(std::ostream& stream)
 {
 	for (int i = 0; i < length; i++)
 	{
-		items[i].Print();
-		std::cout << " ";
+		items[i].Print(stream);
+		stream << " ";
 	}
 	std::cout << std::endl;
 }
