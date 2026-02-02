@@ -4,7 +4,7 @@
 #include <iostream>
 
 typedef int Type;
-const int MAX_ITEMS = 100;
+const int MAX_ITEMS = 5;
 
 enum class relationType
 {
